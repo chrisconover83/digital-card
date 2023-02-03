@@ -1,9 +1,10 @@
 import React from "react";
+import ProfilePic from "/assets/profile.png";
 
 const Info = () => {
     return (
         <div>
-            <img src="assets/profile.png" alt="profile picture" width="317px" height="317px" className="profile"/>
+            <img src={ProfilePic} alt="profile picture" width="317px" height="317px" className="profile"/>
             <div className="container">
                 <h1 className="name">Chris Conover</h1>
                 <h4 className="title">Full-stack Developer</h4>

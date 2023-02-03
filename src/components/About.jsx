@@ -1,11 +1,13 @@
 import React from "react";
+import QR from "/assets/qr-code.png";
+
 
 const About = () => {
     return (
         <div>
-            <img src="assets/qr-code.png" alt="QR code" width="217px" height="217px" className="QRcode"/>
+            <img src={QR} width="217px" height="217px" className="QRcode"/>
         </div>
-    );
+    )
 }
-
+            
 export default About
